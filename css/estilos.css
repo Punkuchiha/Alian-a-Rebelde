@@ -1,0 +1,35 @@
+body {
+	background-image: url(../img/2.jpg);
+	background-repeat: no-repeat;
+	height: : 100%;
+	width: 100%;
+	font-size: 16px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: table;
+	position:relative;
+}
+
+fieldset {
+	max-width: 20%;
+	max-height: 20%;
+	font-family: courier new;
+	color: #A9A9A9;
+	text-align: center;
+}
+
+header {
+	padding: 20px;
+	color: antiquewhite;
+	text-align: center;
+}
+
+input {
+	outline:none;
+}
+
+
+
+
