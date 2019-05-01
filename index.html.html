@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aliança Rebelde</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device.width,user-scalable=no">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<header>
+		<img src="img/8.png" alt="Aliança Rebelde" width="150px" height="150px">
+	</header>
+	<article>
+		<form class="pure-form">
+    		<fieldset>
+        			<legend> Acesso restrito </legend>
+       			 	<input type="password" name="senha" size="6" maxlength="6" pattern="[0-9A-z]" title="Acesso inválido" autofocus="on"  placeholder="Senha" id="password" required>
+       			 	<p>
+       			 	<button type="submit" class="pure-button pure-button-primary">Confirmar</button>
+       			 	<input type="reset" name="limpar" value="Limpar">
+        			</p>
+    		</fieldset>
+		</form>
+	</article>
+<script>
+var password = document.getElementById("password");
+
+function senha(){
+  if(password.value != 123) {
+    window.location.href = "https://www.youtube.com/watch?v=4F4qzPbcFiA"
+  } else {
+    alert(Acesso negado);
+  }
+}
+password.onchange = senha;
+</script>
+</body>
+</html>
